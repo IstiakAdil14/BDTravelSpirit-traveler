@@ -8,8 +8,7 @@ import SearchBar from './SearchBar';
 import UtilityIcons from './UtilityIcons';
 import MobileNav from './MobileNav';
 import TopInfoBar from './TopInfoBar';
-import PageNavigation from './PageNavigation';
-
+import QuickLinks from './QuickLinks';
 const AccountMenu = dynamic(() => import('./AccountMenu'), { ssr: false });
 
 interface HeaderUIProps {
@@ -81,7 +80,10 @@ export default function HeaderUI({
                     </div>
                 </div>
                 <div className="hidden lg:flex items-center space-x-6">
-                    <PageNavigation />
+                    {/* places to see, thinGS TO DO, ANd trip inSPIRATION QUICK LINK Navigation */}
+                    <QuickLinks />
+
+
                 </div>
             </motion.header>
 

@@ -29,9 +29,10 @@ const linkColumns = [
     color: 'text-blue-400',
     links: [
       { name: 'About Us', href: '/about' },
-      { name: 'Our Mission', href: '/mission' },
+      { name: 'Contact', href: '/contact' },
+      { name: 'Privacy Policy', href: '/privacy' },
+      { name: 'Mission & Vision', href: '/mission-vision' },
       { name: 'Careers', href: '/careers' },
-      { name: 'Press', href: '/press' },
     ],
   },
   {
