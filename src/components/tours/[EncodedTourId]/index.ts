@@ -1,0 +1,23 @@
+// app/tours/[EncodedTourId]/components/index.ts
+export { default as HeroBanner } from './HeroBanner';
+export { default as MediaCarousel } from './MediaCarousel';
+export { default as LightboxModal } from './LightboxModal';
+export { default as QuickFactsCard } from './QuickFactsCard';
+export { default as StickyBookingPanel } from './StickyBookingPanel';
+export { default as PriceBreakdown } from './PriceBreakdown';
+export { default as AvailabilityTicker } from './AvailabilityTicker';
+export { default as ItineraryAccordion } from './ItineraryAccordion';
+export { default as HighlightsGrid } from './HighlightsGrid';
+export { default as InclusionsExclusions } from './InclusionsExclusions';
+export { default as MapPreview } from './MapPreview';
+export { default as PoliciesBlock } from './PoliciesBlock';
+export { default as ReviewsSummary } from './ReviewsSummary';
+export { default as ReviewsList } from './ReviewsList';
+export { default as FaqAccordion } from './FaqAccordion';
+export { default as GuideProfileList } from './GuideProfileList';
+export { default as TrustBadges } from './TrustBadges';
+export { default as RecommendationsCarousel } from './RecommendationsCarousel';
+export { default as RecentlyViewed } from './RecentlyViewed';
+export { default as SaveShareControls } from './SaveShareControls';
+export { default as StructuredDataRenderer } from './StructuredDataRenderer';
+export { default as ErrorSkeleton } from './ErrorSkeleton';
